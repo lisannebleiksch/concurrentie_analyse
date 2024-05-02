@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "concurrentieanalyse"
+version = "0.1.0"
+description = ""
+authors = ["lisanne.bleiksch <lisannebleiksch@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.0"
+requests = "^2.31.0"
+fuzzywuzzy = "^0.18.0"
+logging = "^0.4.9.6"
+numpy = "^1.26.4"
+matplotlib = "^3.8.2"
+seaborn = "^0.13.2"
+openpyxl = "^3.1.2"
+networkx = "^3.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
